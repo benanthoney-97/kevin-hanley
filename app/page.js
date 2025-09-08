@@ -3,12 +3,12 @@ import React, { useState, useEffect } from "react";
 import Script from "next/script";
 
 export default function VoicePage() {
-  const agentId = process.env.NEXT_PUBLIC_ELEVENLABS_AGENT_ID || "agent_2901k4jjs6rdfjybdq8p7rret143";
+  const agentId = process.env.NEXT_PUBLIC_ELEVENLABS_AGENT_ID || "agent_6701k4mqb7s0e2frhknzhn98asqn";
   const heroLogo = process.env.NEXT_PUBLIC_BRAND_LOGO_URL || "https://aigtrvecjglsbqqzqige.supabase.co/storage/v1/object/public/website_images/Screenshot%202025-09-07%20at%2019.01.24.png";
   const headerLogo = process.env.NEXT_PUBLIC_HEADER_LOGO_URL || "";
-  const businessName = process.env.NEXT_PUBLIC_BRAND_NAME || "(Demo) Transitioning to a Quantum-Secure Economy";
+  const businessName = process.env.NEXT_PUBLIC_BRAND_NAME || "(Demo) Clinical Trial Record";
   const businessTagline =
-    process.env.NEXT_PUBLIC_BRAND_TAGLINE || "Learn with the World Economic Forum about how organisations can harness the potential opportunities opened by quantum computing.";
+    process.env.NEXT_PUBLIC_BRAND_TAGLINE || "A Study of Long-acting Antibodies Alone and in Combinations for Moderate to Severe Ulcerative Colitis (SKYLINE-UC)";
 
   const links = [
     { label: "Get a quote", href: "#" },
